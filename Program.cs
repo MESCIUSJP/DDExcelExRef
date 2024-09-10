@@ -6,7 +6,7 @@ using GrapeCity.Documents.Excel;
 Workbook workbook = new();
 
 // 外部参照式を設定
-workbook.Worksheets[0].Range["E5"].Formula = @"='[workbook1.xlsx]Sheet1'!B2";
+workbook.Worksheets[0].Range["E5"].Formula = "='[workbook1.xlsx]Sheet1'!B2";
 
 // 外部ワークブックを読み込み
 Workbook externalworkbook = new();
