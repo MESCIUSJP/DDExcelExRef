@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GrapeCity.Documents.Excel" Version="4.0.3" />
+    <PackageReference Include="DioDocs.Excel.ja" Version="7.1.3" />
   </ItemGroup>
 
   <ItemGroup>
